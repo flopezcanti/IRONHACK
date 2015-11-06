@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding:0;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 48px;
+	font-family: monospace;
+	color: #edec51;
+	padding-top: 25px;
+}
+
+p	{
+	font-size: 36px;
+	line-height: 48px;
+	font-family: monospace;
+	color:#edec51;
+	padding-top: 25px;
+}
+
+img {
+	margin: 25px;
+}

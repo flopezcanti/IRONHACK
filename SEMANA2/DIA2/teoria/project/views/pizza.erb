@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Pizza Rica</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<h1>Pizza's Ingredients</h1>
+
+<div>
+<div>
+<ul>
+	<% @ingredients.each do |ingr| %>
+		<li> <%= ingr %> </li>
+	<% end %>
+</ul>
+</div>
+
+<div style="float:left; ">
+<img src="/burnpizza.jpg" alt="Burning Calories" align="left"></img>
+</div>
+</div>
+</body>
+</html>

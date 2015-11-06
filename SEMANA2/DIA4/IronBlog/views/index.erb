@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IRONBLOG</title>
+</head>
+<body>
+
+	<% @post.each do |the_post| %>
+		 <h2><a href="????"><%= the_post.title %></a></h2>
+		 <pre><%= the_post.date %></pre>
+	<% end %>
+
+</body>
+</html>

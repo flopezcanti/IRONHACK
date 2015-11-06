@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STAR WARS TIME</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+	<h1 style="text-align:center;">A long <%= @hour_ago %> hours ago, in a far, far galaxy... the time was</h1>
+
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/KDFqhXHD3yk?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe></center>
+
+	<p style="text-align:center;"> <%= Time.now - @hour %> </p>
+
+</body>
+</html>
